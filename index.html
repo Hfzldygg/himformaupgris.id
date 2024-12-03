@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HIMFORMA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="#">HIMFORMA</a>
+                </div>
+                <ul class="nav-list">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="profil.html">PROFIL</a></li>
+                    <li><a href="informasi.html">INFORMASI</a></li>
+                    <li><a href="aspirasi.html">ASPIRASI</a></li>
+                </ul>
+                <div class="login">
+                    <a href="#" class="login-btn" id="openLoginModal">LOGIN</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <section class="hero">
+                <div class="hero-img-container">
+                    <img src="home.jpg" alt="Welcome to HIMFORMA" class="hero-img">
+                </div>
+                <div class="hero-text">
+                    <h1>WELCOME TO HIMFORMA</h1>
+                    <h2>KABINET ABIYASA NAWASENA</h2>
+                    <a href="#" class="btn">SELANJUTNYA</a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Login Modal -->
+    <div class="modal" id="loginModal">
+        <div class="modal-content">
+            <span class="close-btn" id="closeLoginModal">&times;</span>
+            <h2>Login</h2>
+            <form action="#" method="POST">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                <button type="submit" class="btn">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <h3>Informasi Kontak</h3>
+        <p>Jika Anda memiliki pertanyaan lebih lanjut, silakan hubungi kami di:</p>
+        <p>Email: <a href="mailto:hmainformatika@upgris.ac.id">hmainformatika@upgris.ac.id</a></p>
+        <div class="sosmed">
+            <p>
+                <img src="instagram.svg" alt="Logo Instagram" />
+                Instagram: <a href="https://instagram.com/himforma_upgris" target="_blank">@himforma_upgris</a>
+            </p>
+            <p>
+                <img src="tiktok.png" alt="Logo TikTok" />
+                TikTok: <a href="https://tiktok.com/@himforma_upgris" target="_blank">@himforma_upgris</a>
+            </p>
+        </div>
+        <p>&copy; 2024 HIMFORMA</p>
+    </footer>    
+
+    <!-- JavaScript -->
+    <script>
+        // Get modal elements
+        const loginModal = document.getElementById("loginModal");
+        const openLoginModal = document.getElementById("openLoginModal");
+        const closeLoginModal = document.getElementById("closeLoginModal");
+
+        // Open the modal
+        openLoginModal.addEventListener("click", (e) => {
+            e.preventDefault();
+            loginModal.style.display = "block";
+        });
+
+        // Close the modal
+        closeLoginModal.addEventListener("click", () => {
+            loginModal.style.display = "none";
+        });
+
+        // Close the modal when clicking outside the content
+        window.addEventListener("click", (e) => {
+            if (e.target === loginModal) {
+                loginModal.style.display = "none";
+            }
+        });
+    </script>
+</body>
+</html>

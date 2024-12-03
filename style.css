@@ -1,0 +1,729 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background-color: #0056B3;
+    padding: 15px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login .login-btn {
+    color: white;
+    background-color: #0056B3;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.login .login-btn:hover {
+    background-color: #004080;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.hero-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.hero .btn {
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #0056B3;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background-color: #004080;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #002E61;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #002E61;
+    padding: 15px 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-img {
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin: 0 15px;
+  }
+  
+  .menu a {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  /* Main Content Styles */
+  .main-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .text-section {
+    max-width: 50%;
+  }
+  
+  .text-section h1 {
+    font-size: 36px;
+    color: #002E61;
+    margin-bottom: 20px;
+  }
+  
+  .text-section p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #002E61;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .btn:hover {
+    background-color: #0056B3;
+  }
+  
+  .image-section {
+    max-width: 50%;
+  }
+  
+  .main-image {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+ /* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #002E61;
+    padding: 15px;
+    color: white;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-list a:hover {
+    background-color: #0056B3;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 50px 0;
+}
+
+.hero-img-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero-text {
+    flex: 1;
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    color: #f6f6f6;
+    margin-bottom: 10px;
+}
+
+.hero-text h2 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #0056B3;
+}
+
+.hero-text a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #002E61;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hero-text a:hover {
+    background-color: #0056B3;
+}
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.modal-content h2 {
+    margin-bottom: 20px;
+    color: #002E61;
+}
+
+.modal-content input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.modal-content .btn {
+    background-color: #002E61;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.modal-content .btn:hover {
+    background-color: #0056B3;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #1b02ff;
+}
+
+/* Footer */
+footer {
+    background-color: #002E61;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #0056B3;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #0056B3;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.statistik {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.statistik-image {
+    width: 150px; /* Sesuaikan ukuran gambar */
+    height: auto; /* Memastikan gambar tetap proporsional */
+    margin-right: 20px; /* Jarak antara gambar dan teks */
+}
+
+.statistik-text {
+    max-width: 600px; /* Batas lebar untuk teks statistik */
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #0056B3; /* Warna hijau */
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.statistik {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.statistik-image {
+    width: 150px; /* Sesuaikan ukuran gambar */
+    height: auto; /* Memastikan gambar tetap proporsional */
+    margin-right: 20px; /* Jarak antara gambar dan teks */
+    border-radius: 8px; /* Sudut gambar melengkung */
+}
+
+.statistik-text {
+    max-width: 600px; /* Batas lebar untuk teks statistik */
+}
+
+.highlight {
+    color: #4CAF50; /* Warna hijau untuk menyoroti angka */
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px; /* Jarak atas footer */
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #0056B3; /* Warna hijau */
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.aspiration-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="text"]:focus, textarea:focus {
+    border-color: #4CAF50; /* Warna hijau saat fokus */
+    outline: none;
+}
+
+button {
+    background: #4CAF50; /* Warna hijau */
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #45a049; /* Warna hijau lebih gelap saat hover */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px; /* Jarak atas footer */
+}
+.progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    position: relative;
+}
+
+.progress {
+    background-color: #0056B3; /* Warna hijau */
+    height: 100%;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    line-height: 30px; /* Vertikal center */
+    transition: width 0.5s; /* Animasi perubahan lebar */
+}
+.gallery img {
+    width: 150px; /* Lebar gambar */
+    height: auto; /* Tinggi otomatis untuk menjaga rasio aspek */
+    border-radius: 5px; /* Sudut gambar membulat */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Bayangan pada gambar */
+    transition: transform 0.3s; /* Animasi saat hover */
+}
+
+/* Hover efek */
+.gallery img:hover {
+    transform: scale(1.05); /* Zoom saat hover */
+}
+
+.logo {
+    position: static;
+    top: 10px; /* Sesuaikan posisi vertikal */
+    right: 10px; /* Sesuaikan posisi horizontal */
+    width: 70px; /* Sesuaikan ukuran logo */
+    height: auto; /* Mempertahankan rasio aspek */
+}
+/* Gaya untuk tautan navigasi */
+nav ul li a {
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    padding: 5px 10px;
+    color: #ffffff; /* Warna teks */
+}
+
+/* Pseudo-elemen untuk garis bawah */
+nav ul li a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #007BFF; /* Warna garis */
+    transition: width 0.3s ease; /* Efek animasi */
+}
+
+/* Hover atau fokus: garis meluncur */
+nav ul li a:hover::before,
+nav ul li a:focus::before {
+    width: 100%; /* Panjang penuh saat hover */
+}
+
+/* Halaman aktif */
+nav ul li a.active::before {
+    width: 100%; /* Garis penuh untuk halaman aktif */
+}
+nav ul li a {
+    text-decoration: none; /* Menghapus garis bawaan */
+    padding: 5px 10px;     /* Memberikan ruang di sekitar teks */
+    border-bottom: 2px solid transparent; /* Garis transparan default */
+    transition: border-color 0.3s ease; /* Animasi saat hover */
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    border-bottom: 2px solid #007BFF; /* Garis muncul saat hover */
+}
+nav ul li a.active {
+    border-bottom: 2px solid #007BFF; /* Warna untuk halaman aktif */
+}
+/* Container untuk e-Buletin */
+#ebuletin {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Setiap item e-Buletin */
+.ebuletin-item {
+    margin: 20px 0;
+}
+
+.ebuletin-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007BFF;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover efek untuk tombol */
+.ebuletin-button:hover {
+    background-color: #0056b3;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #2e2b2b;
+}
+
+footer .sosmed p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+footer .sosmed img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+footer a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
